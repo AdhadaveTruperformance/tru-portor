@@ -56,7 +56,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
         integrity="sha512-5Hs3dF2AEPkpNAR7UiOHba+lRSJNeM2ECkwxUIxC1Q/FLycGTbNapWXB4tP889k5T5Ju8fs4b1P5z/iB4nMfSQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <style>
         .nav img {
             height: 20px;
@@ -323,7 +323,7 @@
             padding-bottom: 0px;
         }
 
-       
+
 
 
 
@@ -454,13 +454,14 @@
             .dropdown:hover .dropdown-menu {
                 display: block;
             }
-/* 
+
+            /* 
             .nav img {
                 display: none;
             } */
 
         }
-        
+
         @media (max-width: 768px) {
             .menu-toggle {
                 display: flex;
@@ -514,7 +515,7 @@
         }
 
 
-        @media screen and (min-width: 320px) and (max-width: 767px){
+        @media screen and (min-width: 320px) and (max-width: 767px) {
             .menu-toggle {
                 display: flex;
             }
@@ -573,6 +574,7 @@
             flex-wrap: wrap;
             justify-content: space-between;
         }
+
         .services {
             width: 200px;
             padding: 16px 22px;
@@ -675,6 +677,8 @@
 
             .form-control {
                 margin-bottom: 20px;
+                padding: 20px;
+                font-size: 18px;
             }
 
             .cta-button {
@@ -708,6 +712,26 @@
             span.join-button,
             .fa-arrow-right {
                 color: #fff;
+            }
+
+            .submit-btn {
+                height: 38px;
+                display: flex;
+                padding: 20px;
+                background-color: #FF6138;
+                text-decoration: none;
+                font-family: "Poppins", sans-serif;
+                font-size: 18px;
+                font-weight: 600;
+                text-transform: uppercase;
+                line-height: 1em;
+                color: #FFFFFF;
+                border-radius: 5px;
+                transition: ease-in-out .3s;
+                border: none;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
             }
         }
 
@@ -780,11 +804,13 @@
         .fa-chevron-down {
             margin-left: 5px;
         }
+
         .swiper {
             width: 100%;
             height: auto;
             /* background: rgb(238, 205, 205); */
         }
+
         .center-text {
             font-family: "Poppins", sans-serif;
             text-align: center;
@@ -794,6 +820,7 @@
             font-weight: bold;
             margin-bottom: 40px;
         }
+
         .swiper-slide {
             text-align: center;
             font-size: 18px;
@@ -814,30 +841,35 @@
         .swiper-button-prev {
             color: #000;
         }
-        .swiper-button-next:after, .swiper-button-prev:after
-        {
-            font-size: 25px!important;
-            font-weight: 600px!important;
+
+        .swiper-button-next:after,
+        .swiper-button-prev:after {
+            font-size: 25px !important;
+            font-weight: 600px !important;
         }
-        .swiper-button-prev, .swiper-rtl .swiper-button-next
-        {
-            left: unset!important;
-           
+
+        .swiper-button-prev,
+        .swiper-rtl .swiper-button-next {
+            left: unset !important;
+
         }
-        .swiper-button-next, .swiper-rtl .swiper-button-prev
-        {
-        right: 0px!important;
+
+        .swiper-button-next,
+        .swiper-rtl .swiper-button-prev {
+            right: 0px !important;
         }
 
         @media (max-width: 768px) {
             .swiper-slide img {
-                width: 150px; /* Smaller images for tablets */
+                width: 150px;
+                /* Smaller images for tablets */
             }
         }
 
         @media (max-width: 480px) {
             .swiper-slide img {
-                width: 120px; /* Smaller images for mobile devices */
+                width: 120px;
+                /* Smaller images for mobile devices */
             }
         }
     </style>
@@ -985,83 +1017,91 @@
         }
     </script>
 
-<section id="quick-links">
-    <div class="container">
-        <h2 class="center-text">Quick Links</h2>
-        <div class="swiper mySwiper">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide">
-                    <a href="https://slack.com" target="_blank" class="quick-link" id="openSlack">
-                        <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Slack.png" alt="Slack">
-                    </a>
+    <section id="quick-links">
+        <div class="container">
+            <h2 class="center-text">Quick Links</h2>
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="https://slack.com" target="_blank" class="quick-link" id="openSlack">
+                            <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Slack.png"
+                                alt="Slack">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://monday.com" target="_blank" class="quick-link" id="openMondayBoard">
+                            <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Monday.com_.png"
+                                alt="Monday.com">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://zoom.us/join" target="_blank" class="quick-link" id="openZoom">
+                            <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Zoom.png" alt="Zoom">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://www.perplexity.ai/" target="_blank" class="quick-link" id="Perplexity">
+                            <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Perplexity-1.png"
+                                alt="Perplexity">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://chat.openai.com/" target="_blank" class="quick-link" id="chatGPT">
+                            <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/ChatGPT-1.png"
+                                alt="ChatGPT">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://academy.truperformancedigital.com/" target="_blank" class="quick-link"
+                            id="truLMS">
+                            <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Tru-Learning-Academy-Logo-B-v2.png"
+                                alt="TRU LMS">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://apps.paybooks.in/" target="_blank" class="quick-link" id="payBook">
+                            <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Paybooks.png"
+                                alt="Paybooks">
+                        </a>
+                    </div>
+                    <div class="swiper-slide">
+                        <a href="https://outlook.office.com/" target="_blank" class="quick-link" id="microsoftOutLook">
+                            <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Outlook-1.png"
+                                alt="Outlook">
+                        </a>
+                    </div>
                 </div>
-                <div class="swiper-slide">
-                    <a href="https://monday.com" target="_blank" class="quick-link" id="openMondayBoard">
-                        <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Monday.com_.png" alt="Monday.com">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="https://zoom.us/join" target="_blank" class="quick-link" id="openZoom">
-                        <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Zoom.png" alt="Zoom">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="https://www.perplexity.ai/" target="_blank" class="quick-link" id="Perplexity">
-                        <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Perplexity-1.png" alt="Perplexity">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="https://chat.openai.com/" target="_blank" class="quick-link" id="chatGPT">
-                        <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/ChatGPT-1.png" alt="ChatGPT">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="https://academy.truperformancedigital.com/" target="_blank" class="quick-link" id="truLMS">
-                        <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Tru-Learning-Academy-Logo-B-v2.png" alt="TRU LMS">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="https://apps.paybooks.in/" target="_blank" class="quick-link" id="payBook">
-                        <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Paybooks.png" alt="Paybooks">
-                    </a>
-                </div>
-                <div class="swiper-slide">
-                    <a href="https://outlook.office.com/" target="_blank" class="quick-link" id="microsoftOutLook">
-                        <img src="https://tp-devserver.com/staging/wp-content/uploads/2024/11/Outlook-1.png" alt="Outlook">
-                    </a>
-                </div>
+                <!-- Navigation Buttons -->
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
             </div>
-            <!-- Navigation Buttons -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
         </div>
-    </div>
-</section>
+    </section>
 
-<!-- Swiper JS -->
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 
-<!-- Initialize Swiper -->
-<script>
-    var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 3, // Default: 3 items per row
-        spaceBetween: 20, // Space between items
-        loop: true, // Enable looping
-        navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-        },
-        // Responsive breakpoints
-        breakpoints: {
-            768: {
-                slidesPerView: 3, // 2 items per row on tablets
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 3, // Default: 3 items per row
+            spaceBetween: 20, // Space between items
+            loop: true, // Enable looping
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
             },
-            320: {
-                slidesPerView: 2, // 1 item per row on mobile
+            // Responsive breakpoints
+            breakpoints: {
+                768: {
+                    slidesPerView: 3, // 2 items per row on tablets
+                },
+                320: {
+                    slidesPerView: 2, // 1 item per row on mobile
+                },
             },
-        },
-    });
-</script>
+        });
+    </script>
     <!-- <section class="meeting-section" id="meeting-section">
         <div class="container">
         <h2 class="center-text">Zoom Bridge Quik Links</h2>
@@ -1437,6 +1477,10 @@
             document.getElementById("output").innerText = fullPath;
 
             document.getElementById("copyButton").style.display = "inline-block";
+            document.getElementById("baseURL").value = '';
+            document.getElementById("path").value = '';
+            document.getElementById("parameter1").value = '';
+            document.getElementById("fileversion").value = '';
 
         });
 
